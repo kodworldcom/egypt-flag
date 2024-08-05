@@ -1,0 +1,26 @@
+/* 
+red: #C8102E
+white: #FFFFFF
+black: #000000
+*/
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.egypt {
+  width: 300px;
+  height: 200px;
+  background: linear-gradient(
+    #c8102e 33%,
+    #ffffff 0,
+    #ffffff 67%, 
+    #000000 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
